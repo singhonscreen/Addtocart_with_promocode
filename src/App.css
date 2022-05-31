@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarContainer{
+    background-color: black;
+}
+.navbarContainer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.total_products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer button{
+    width: 20px;
+    color: rgb(108, 108, 219);
+    border: none;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.imgContainer input{
+    width: 20px;
+    text-align: center;
+    border: none;
+}
+.imgContainer input:focus{
+    outline: none;
+}
+.navbarContainer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.mainContainer{
+    background-color: #b1aaaa3b;
+    padding: 10px 20px;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+}
+.total_amount button{
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 2px;
+}

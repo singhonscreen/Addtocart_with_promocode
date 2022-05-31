@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "quantity":0,  
+    "name":"Managed Security Services",
+      "price":2549.99,
+      "imgUrl":"./images/security.jpg"
+}  ,
+{
+    "id":2,
+    "quantity":0,
+    "name":"Engineering & integration",
+    "price":1025.50,
+    "imgUrl":"./images/integration.jpg"
+} ,
+{
+    "id":3,
+    "quantity":0,
+    "name":"Training",
+    "price":100,
+    "imgUrl":"./images/training.jpg"
+} 
+]
